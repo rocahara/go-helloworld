@@ -1,0 +1,8 @@
+version: '2'
+services:
+  hello:
+    image: go-helloworld
+    container_name: go-helloworld
+    build:
+      context: ./
+      dockerfile: ./build/Dockerfile
